@@ -1,0 +1,17 @@
+.Finished {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.canceled {
+    background-color: lightgray;
+}
+
+.finished {
+    background-color: green;
+}
+
+.unfinished {
+    background-color: red;
+}

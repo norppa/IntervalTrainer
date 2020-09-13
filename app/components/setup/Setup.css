@@ -1,0 +1,49 @@
+.Setup, .time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    width: 5em;
+    margin: 0px 5px;
+}
+
+button {
+    margin: 5px;
+}
+
+.input-totals {
+    margin: 5px;
+    padding: 4px 3px 7px 3px;
+}
+
+.input-total {
+    width: 5em;
+    margin: 0px 5px;
+}
+
+.exercises {
+    height: 6em;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    font-family: 'Martel', serif;
+    font-size: 16pt;
+}
+
+select {
+    margin-left: 20px;
+    min-width: 10em;
+    font-family: 'Martel', serif;
+}
+
+.exerciseInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons {
+    margin-top: 10px;
+}

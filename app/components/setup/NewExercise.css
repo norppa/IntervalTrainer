@@ -1,0 +1,52 @@
+.NewExercise {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name {
+    margin-bottom: 10px;
+}
+
+#nameInput {
+    margin-left: 1em;
+    min-width: 18em;
+}
+
+.total {
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.setInputContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 3px;
+    padding: 4px;
+    margin: 3px;
+}
+
+.setInputRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.setInputRow input {
+    width: 4em;
+}
+
+.error {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #23ce6b;
+    border: 2px solid #a39ba8;
+    border-radius: 10px;
+    width: 50%;
+    margin: 20px;
+    padding: 20px;  
+}
